@@ -1,0 +1,49 @@
+body {
+	background: #ECECEC;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: white;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+div.post {
+	background: white;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+div.post img{
+	width: 100%;
+}
+
+div > span {
+	margin-left: auto;
+    margin-right: 10px;
+}
+
+.post-header {
+	display:flex;
+	justify-content: left;
+	align-items: center;
+}
+
+div.post h2, div.post p {
+	padding: 10px;
+	margin: 0;
+}
+
+div.container {
+	width: 600px;
+	margin: auto;
+}
